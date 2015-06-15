@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sweet Escape</title>
+
+    <!--Link CSS styling-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!--Link for Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!--Links for Favicon-->
+    <link rel="icon" href="images/se-favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/se-favicon.ico" type="image/x-icon" />
+
+    <!--Script for Jquery and JS -->
+    <script type="text/javascript" src="js/modernizr.custom.56594.js"></script>
+    <!--Script that will make fullPage.js work-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Script for fullPage.js-->
+    <script type="text/javascript" src="js/libs/jquery.fullPage.js"></script>
+    <!--Script to Run before page loads with Section Color-->
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+<!--Navigation Menu-->
+<ul id="menu">
+    <li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Photos</a></li>
+    <li data-menuanchor="4thpage"><a href="#4thpage">Contact</a></li>
+    <li data-menuanchor="lastpage"><a href="#lastpage">Info</a></li>
+</ul>
+<!--End Navigation-->
+<!--Start of fullPage.js Demo-->
+<div id="fullpage">
+    <!--Start of First Section-->
+    <div class="section " id="section0">
+        <div class="container">
+            <canvas id="myCanvas" width="2000px" height="800px">
+            <img id="img1" src="images/se-banner3.jpg" >
+            Your browser does not support Canvas!
+            </canvas>
+        </div>
+    </div>
+    <!--Slide Demo-->
+    <!--Start of Section 2-->
+    <div class="section" id="section2">
+        <div class="intro">
+        <!-- Skills Section -->
+        <section id="skills" class="easyPieChart">
+                <div class="row">
+                        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 skills"> <span data-percent="90" class="chart skilBg"> <span class="percent">90</span> <canvas height="152" width="152"></canvas></span>
+                            <h4>HTML5</h4>
+                    </div>
+                        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 skills"> <span data-percent="75" class="chart skilBg"> <span class="percent">75</span> <canvas height="152" width="152"></canvas></span>
+                            <h4>jQuery</h4>
+                        </div>
+                        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 skills"> <span data-percent="80" class="chart skilBg"> <span class="percent">80</span> <canvas height="152" width="152"></canvas></span>
+                            <h4>PHP / MySQL</h4>
+                        </div>
+                </div>  <!-- END of Row for Chart-->
+        </section>
+    </div><!-- Skills Section End -->
+    </div>          <!--End of Section 2-->
+    <!--Start of Section 3-->
+    <div class="section" id="section3">
+        <!-- Slide 1 -->
+        <div class="slide">
+            <div class="intro">
+                <canvas id="myCanvas2" width="2000px" height="2000px">
+                    Your browser does not support Canvas!
+                </canvas>
+            </div>
+        </div>
+        <!-- Slide 2 Pic of Eggs-->
+        <div class="slide">
+            <div class="intro">
+                <img src="images/Eggs.jpg" height="100%" width="100%" alt="eggs uncracked" />
+            </div>
+        </div>
+        <!-- Slide 3 Pic of cracked egg-->
+        <div class="slide">
+            <div class="intro">
+                <img src="images/Egg.jpg" height="100%" width="100%" alt="cracked egg" />
+            </div>
+        </div>
+        <!-- Slide 4 Pic of dough and whisk-->
+        <div class="slide">
+            <div class="intro">
+                <img src="images/foodiesfeed.com_cocoa-dough-whisk.jpg" height="100%" width="100%" alt="whisk dough mix" />
+            </div>
+        </div>
+        <!-- Slide 5 Pic of Icing-->
+        <div class="slide">
+            <div class="intro">
+                <img src="images/foodiesfeed.com_easter-gingerbread-lemon-icing.jpg" height="100%" width="100%" alt="icing spoon" />
+            </div>
+        </div>     <!--End of Slide Demo-->
+    </div>         <!--End of Section 3-->
+    <!--Start of Section 4-->
+    <div class="section" id="section4">
+        <video autoplay loop muted controls="false" id="myVideo">
+            <source src="images/KeyboardingSideView-HD.mp4" type="video/mp4">
+            Your browser is not supported!
+        </video>
+        <div class="layer" id="contact">
+            <p>Contact Me</p>
+        </div>
+    </div>         <!--End of Section 4-->
+    <!--Start of Section 4-->
+    <div class="section" id="section5">
+        <div class="intro">
+            <h1>Contact Me</h1>
+            <p>hi@mysweetescape.com</p>
+        </div>
+    </div>         <!--End of Section 4-->
+</div> <!-- End of Project-->
+
+<!-- jQuery Version 1.11.1 -->
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!--Chart JS-->
+<script src="js/libs/jquery.easypiechart.js"></script>
+
+</body>
+</html>
